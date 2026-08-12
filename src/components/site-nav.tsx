@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import logo from "@/assets/seereenai-mark.png.asset.json";
+import logo from "@/assets/seereenai-logo.png";
 
 const links = [
   { label: "Philosophy", href: "#philosophy" },
@@ -29,7 +29,7 @@ export function SiteNav() {
       >
         <a href="#top" className="flex items-center gap-3">
           <img
-            src={logo.url}
+            src={logo}
             alt="SeereenAI"
             width={96}
             height={96}
