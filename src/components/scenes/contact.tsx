@@ -92,7 +92,7 @@ export function Contact() {
             rel="noreferrer"
             className="mt-14 inline-block rounded-full bg-gradient-to-r from-champagne to-gold px-10 py-4 text-[0.74rem] tracking-[0.26em] text-espresso uppercase transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] hover:scale-[1.04]"
           >
-            Start a Conversation
+            Get a Quote
           </a>
         </Reveal>
 
