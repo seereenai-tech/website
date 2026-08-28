@@ -8,7 +8,7 @@ import { SandParticles } from "@/components/atmosphere";
 import { MaskedLines, Reveal } from "@/components/reveal";
 
 export function Arrival() {
-  const ref = useRef<HTMLSection>(null);
+  const ref = useRef<HTMLElement>(null);
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end start"] });
 
   const skyY = useTransform(scrollYProgress, [0, 1], ["0%", "22%"]);
@@ -105,9 +105,9 @@ export function Arrival() {
               href="/SeereenAI-Portfolio.pdf"
               download="SeereenAI-Portfolio.pdf"
               className="glass rounded-full px-9 py-3.5 text-[0.74rem] tracking-[0.24em] text-espresso uppercase transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] hover:scale-105 flex items-center gap-2"
-              aria-label="Download Portfolio PDF"
+              aria-label="Download SeereenAI Portfolio PDF"
             >
-              <Download className="h-4 w-4" />
+              <Download className="h-4 w-4" strokeWidth={1.5} />
               Download Portfolio
             </a>
           </div>
